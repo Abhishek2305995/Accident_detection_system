@@ -46,8 +46,8 @@ def calculate_iou(box1, box2):
 
 def send_telegram_alert(image_path):
 
-    TOKEN = "8707594864:AAGhGd65QhFuSbVWGpGdWE2iGAX4YwcQzqM"
-    CHAT_ID = "5011939276"
+    TOKEN = "[YOUR TOKEN]"
+    CHAT_ID = "[YOUR CAHT ID]"
 
     url = f"https://api.telegram.org/bot{TOKEN}/sendPhoto"
 
